@@ -1,0 +1,7 @@
+table{
+    border:solid 2px red;
+    font-size: larger;
+}
+tr th{
+    border: solid 1px red;
+}
