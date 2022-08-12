@@ -5,3 +5,62 @@ table{
 tr th{
     border: solid 1px red;
 }
+#siva{
+    color: red;
+}
+.shakthi{
+    color: brown;
+}
+/* *{
+    color:blue
+} */
+
+ /* h1, p{
+    color: chartreuse;
+} */
+
+/* combinator selector */
+
+ol li{
+    color: crimson;
+    background-color: black;
+}
+
+footer>p{
+    color: darkblue;
+}
+
+section+p{
+    font-size: larger;
+    color: deeppink;
+}
+section~p{
+    color: mediumaquamarine;
+}
+
+/* pseudo class */
+
+a:link{
+    color: black;
+}
+a:visited{
+    color: blue;
+}
+a:hover{
+    color: brown;
+    font-size: 36px;
+}
+a:active{
+    color: chartreuse;
+}
+
+/* pseudo element  */
+
+li::first-letter{
+    color: chocolate;
+    word-spacing: 100px;
+}
+
+
+
+
